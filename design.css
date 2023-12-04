@@ -1,0 +1,31 @@
+body{
+    background-color: #36384d;
+}
+.whole-part{
+    background-color: white;
+    width: 750px;
+    padding:20px;
+    height: 500px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.left-part{
+  padding: 20px;
+  width: 350px;
+  height: 500px; 
+}
+.image-design{
+    height: 500px;
+}
+.input-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    background-image: url(icon-list.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
